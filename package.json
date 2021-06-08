@@ -1,0 +1,22 @@
+{
+  "name": "express-note-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueink38/note-taker.git"
+  },
+  "author": "Jason Fletcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueink38/note-taker/issues"
+  },
+  "homepage": "https://github.com/blueink38/note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

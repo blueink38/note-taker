@@ -1,7 +1,7 @@
 # Note Taker
 [![License: ICL](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)  
 
-> This is a tool to organize duties and to stay on track
+> This is a tool to organize duties and stay on track
 
 ## Table of contents
 * [General info](#general-info)
@@ -19,7 +19,7 @@
 In a world where there is always more to do having a streamlined method of organizing your thoughts and priorities is an invaluable asset.  This application allows just that! The user is able to create notecards for different duties to help to stay on track.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./Develop/public/images/note-taker-screenshot.png)
 
 ## Technologies
 * HTML5
@@ -31,12 +31,21 @@ In a world where there is always more to do having a streamlined method of organ
 * Insomnia
 
 ## Setup
-
+First install node.js, then install express using
+```
+npm install
+```
 
 ## Code Examples
 Show examples of usage:
 ```
-
+// Get Notes from database
+var getNotes = function() {
+  return $.ajax({
+    url: "/api/notes",
+    method: "GET"
+  });
+};
 ```
 
 ## Features
